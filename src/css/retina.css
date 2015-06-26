@@ -1,0 +1,5 @@
+@media only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
+
+	header a.avatar { background: url(/img/avatar@2x.png) no-repeat; background-size: contain; }
+	section.content ul.social li { background-image: url(/img/social-sprite@2x.png); background-repeat: no-repeat; background-size: 246px 54px; }
+}

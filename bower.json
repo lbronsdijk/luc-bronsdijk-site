@@ -1,0 +1,22 @@
+{
+    "name": "Luc-Bronsdijk-nl",
+    "version": "0.0.1",
+    "authors": { 
+        "name": "Luc Bronsdijk", 
+        "email": "info@lucbronsdijk.nl" 
+    },
+    "dependencies": {
+        "jquery": "2.1.4",
+        "respond": "1.4.2",
+        "html5shiv": "3.7.2"
+    },
+    "private": true,
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "package.json",
+        "src"
+    ]
+}
