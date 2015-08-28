@@ -27,7 +27,7 @@
                 <li class="flickr"><a href="http://www.flickr.com/photos/lbronsdijk/" target="_blank" alt="Flickr">Flickr</a></li>
             </ul>
             <footer>
-                <p><strong>&copy; Luc Bronsdijk</strong> - All Right Reserved</p>
+                <p><strong>&copy; Luc Bronsdijk</strong> - Made with love on a Apple</p>
             </footer>
         </section>
     </section>
