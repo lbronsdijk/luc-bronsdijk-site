@@ -18,5 +18,11 @@ ssh_options[:port] = {port}
 role :web, "195.238.74.39"  # Your HTTP server, Apache/etc
 role :app, "195.238.74.39"  # This may be the same as your `Web` server
 
-# if you want to clean up old releases on each deploy uncomment this:
-# after "deploy:restart", "deploy:cleanup"
+namespace :project do 
+    desc "Fix file permissions" 
+    task :fix_chmod, :roles => [ :app, :db, :web ] do 
+        run "chmod -R g-w #{release_path}" 
+    end 
+end 
+
+after "deploy:create_symlink", "project:fix_chmod"
