@@ -1,0 +1,22 @@
+set :application, "luc-bronsdijk-site"
+set :repository,  "git@github.com:lbronsdijk/luc-bronsdijk-site.git"
+
+set :deploy_via, :copy
+set :deploy_to, "{deploy_dir}"
+
+set :use_sudo, false
+set :scm, :git
+
+set :copy_exclude,  [".git", ".gitignore", "CHANGELOG.md", "README.md", "config", "Capfile", "Gemfile", "gulpfile.js", "package.json", "bower.json", "src"]
+
+set :user, "{username}"
+set :ssh_options, { :forward_agent => true }
+
+default_run_options[:pty] = true
+ssh_options[:port] = {port}
+
+role :web, "195.238.74.39"  # Your HTTP server, Apache/etc
+role :app, "195.238.74.39"  # This may be the same as your `Web` server
+
+# if you want to clean up old releases on each deploy uncomment this:
+# after "deploy:restart", "deploy:cleanup"
