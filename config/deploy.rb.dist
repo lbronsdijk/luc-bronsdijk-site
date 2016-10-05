@@ -6,6 +6,7 @@ set :deploy_to, "{deploy_dir}"
 
 set :use_sudo, false
 set :scm, :git
+set :keep_releases, 3
 
 set :copy_exclude,  [".git", ".gitignore", "CHANGELOG.md", "README.md", "config", "Capfile", "Gemfile", "gulpfile.js", "package.json", "bower.json", "src"]
 
