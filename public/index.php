@@ -18,7 +18,7 @@
         </header>
         <section class="content">
             <summary class="welcome">Hi there, I'm Luc and I really love coding front-end stuff. Living in the Dutch city of cheese; Gouda, and developer at <a href="http://www.angrybytes.com" target="_blank">Angry Bytes</a>. </summary>
-            <p>You can say ‘hello’ to me on <a href="https://twitter.com/lbronsdijk" target="_blank">Twitter</a> or at <a href="mailto:hello@lucbronsdijk.nl">hello@lucbronsdijk.nl.</a></p>
+            <p>You can say ‘hello’ to me on <a href="https://twitter.com/lbronsdijk" target="_blank">Twitter</a> or at <a href="mailto:&#104;&#101;&#108;&#108;&#111;&#064;&#108;&#117;&#099;&#098;&#114;&#111;&#110;&#115;&#100;&#105;&#106;&#107;&#046;&#110;&#108;">hello@lucbronsdijk.nl.</a></p>
             <ul class="social">
                 <li class="twitter"><a href="https://twitter.com/lbronsdijk" target="_blank" alt="Twitter">Twitter</a></li>
                 <li class="facebook"><a href="https://www.facebook.com/lbronsdijk" target="_blank" alt="Facebook">Facebook</a></li>
