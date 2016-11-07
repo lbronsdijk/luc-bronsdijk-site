@@ -48,4 +48,3 @@ gulp.task('watch', function() {
     gulp.watch('src/js/*.js', ['appJs']);
     gulp.watch('src/css/*.css', ['appCss']);
 });
-derp
